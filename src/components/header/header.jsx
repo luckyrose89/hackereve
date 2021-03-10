@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
+
+import ThemeContext from "../../ThemeContext";
 
 import pumpkin from "../../assets/images/pumpkin.png";
 import search from "../../assets/images/search.png";
@@ -6,11 +8,13 @@ import search from "../../assets/images/search.png";
 // import fontawesome icons
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faSun } from "@fortawesome/free-solid-svg-icons";
+import { faMoon } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./header.styles.scss";
 
 const Header = () => {
+  const [themeMode, setThemeMode] = useContext(ThemeContext);
   return (
     <header>
       <div className="nav-top">
@@ -36,8 +40,17 @@ const Header = () => {
           <a href="/">Log In</a>
         </div>
 
-        <button className="theme-toggle">
-          <FontAwesomeIcon icon={faSun} />
+        <button
+          className="theme-toggle"
+          onClick={() => {
+            setThemeMode(themeMode === "light" ? "dark" : "light");
+          }}
+        >
+          {themeMode === "light" ? (
+            <FontAwesomeIcon icon={faSun} />
+          ) : (
+            <FontAwesomeIcon icon={faMoon} />
+          )}
         </button>
         <button className="mobile-menu">
           <FontAwesomeIcon icon={faBars} />
