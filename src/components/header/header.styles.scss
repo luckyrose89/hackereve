@@ -1,0 +1,153 @@
+header {
+  position: sticky;
+  top: 0px;
+}
+
+.nav-top {
+  background-color: #9656a1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  @media (max-width: 350px) {
+    padding: 5px 2px;
+  }
+}
+
+.nav-top-brand {
+  display: flex;
+  margin: 10px auto 10px 15px;
+  @media (max-width: 350px) {
+    margin-left: 5px;
+  }
+}
+
+.desktop {
+  img {
+    vertical-align: bottom;
+    margin-right: 4px;
+  }
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.mobile {
+  display: none;
+  img {
+    vertical-align: bottom;
+    width: 40px;
+    height: 40px;
+  }
+
+  @media (max-width: 800px) {
+    display: block;
+  }
+}
+
+.nav-top-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: HackerNoonV1-Regular;
+  color: #000;
+  font-size: 26px;
+}
+
+.search-bar {
+  position: relative;
+  margin-right: 12px;
+  input {
+    width: 200px;
+    border: none;
+    background-color: #ff8ba7;
+    color: #000;
+    border-radius: 4px;
+    padding: 10px 20px 10px 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  @media (max-width: 500px) {
+    input {
+      width: 150px;
+    }
+  }
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  width: 20px;
+  transform: translate(0px, -50%);
+  cursor: pointer;
+}
+
+.auth-options {
+  a {
+    color: #000;
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    margin-right: 16px;
+  }
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+
+.auth-option-start {
+  border: 2px solid #000;
+  border-radius: 2px;
+  padding: 8px;
+
+  &:hover {
+    background-color: #ff8ba7;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.theme-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.mobile-menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  @media (min-width: 800px) {
+    display: none;
+  }
+}
+
+.nav-bottom {
+  background-color: #ff8ba7;
+  padding: 0px 10px;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    li {
+      padding: 10px 12px;
+      font-family: "Roboto Mono", monospace;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
