@@ -119,6 +119,7 @@ a {
   outline: none;
   padding: 0;
   margin-right: 5px;
+  font-size: 2.2rem;
 }
 
 .mobile-menu {
@@ -126,6 +127,7 @@ a {
   border: none;
   cursor: pointer;
   outline: none;
+  font-size: 2.2rem;
   @media (min-width: 800px) {
     display: none;
   }
@@ -139,6 +141,7 @@ a {
     padding: 0;
     list-style: none;
     display: flex;
+    justify-content: center;
     li {
       padding: 10px 12px;
       font-family: "Roboto Mono", monospace;

@@ -2,8 +2,11 @@ import React from "react";
 
 import pumpkin from "../../assets/images/pumpkin.png";
 import search from "../../assets/images/search.png";
-import sun from "../../assets/images/sun.png";
-import menu from "../../assets/images/menu.png";
+
+// import fontawesome icons
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faSun } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./header.styles.scss";
 
@@ -34,10 +37,10 @@ const Header = () => {
         </div>
 
         <button className="theme-toggle">
-          <img src={sun} alt="light theme" />
+          <FontAwesomeIcon icon={faSun} />
         </button>
         <button className="mobile-menu">
-          <img src={menu} alt="menu icon" />
+          <FontAwesomeIcon icon={faBars} />
         </button>
       </div>
 
