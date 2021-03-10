@@ -8,26 +8,11 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faBookmark } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-// import images
-import heart from "../assets/images/heart.png";
-import light from "../assets/images/light.png";
-import boat from "../assets/images/boat.png";
-import money from "../assets/images/money.png";
+import Feedback from "../components/feedback/feedback";
+import article from "../assets/images/article-preview.jpeg";
 
 class Story extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      feedback: 4,
-      activeOne: false,
-      activeTwo: false,
-      activeThree: false,
-      activeFour: false,
-    };
-  }
-
   render() {
-    let { feedback } = this.state;
     return (
       <main className="page-container">
         <div className="page-content">
@@ -51,92 +36,11 @@ class Story extends React.Component {
                 backgroundColor="#000"
               />
             </div>
-            <div className="story-feedback">
-              <div className="feedback-column">
-                <label>{feedback}</label>
-                <div className="emoticons">
-                  <div
-                    className={`emo-img ${
-                      this.state.activeOne ? "is-active" : ""
-                    }`}
-                    onClick={() => {
-                      if (this.state.activeOne) {
-                        this.setState({
-                          activeOne: false,
-                          feedback: this.state.feedback - 1,
-                        });
-                      } else {
-                        this.setState({
-                          activeOne: true,
-                          feedback: this.state.feedback + 1,
-                        });
-                      }
-                    }}
-                  >
-                    <img src={heart} alt="heart emoji" />
-                  </div>
-                  <div
-                    className={`emo-img ${
-                      this.state.activeTwo ? "is-active" : ""
-                    }`}
-                    onClick={() => {
-                      if (this.state.activeTwo) {
-                        this.setState({
-                          activeTwo: false,
-                          feedback: this.state.feedback - 1,
-                        });
-                      } else {
-                        this.setState({
-                          activeTwo: true,
-                          feedback: this.state.feedback + 1,
-                        });
-                      }
-                    }}
-                  >
-                    <img src={light} alt="light bulb emoji" />
-                  </div>
-                  <div
-                    className={`emo-img ${
-                      this.state.activeThree ? "is-active" : ""
-                    }`}
-                    onClick={() => {
-                      if (this.state.activeThree) {
-                        this.setState({
-                          activeThree: false,
-                          feedback: this.state.feedback - 1,
-                        });
-                      } else {
-                        this.setState({
-                          activeThree: true,
-                          feedback: this.state.feedback + 1,
-                        });
-                      }
-                    }}
-                  >
-                    <img src={boat} alt="boat emoji" />
-                  </div>
-                  <div
-                    className={`emo-img ${
-                      this.state.activeFour ? "is-active" : ""
-                    }`}
-                    onClick={() => {
-                      if (this.state.activeFour) {
-                        this.setState({
-                          activeFour: false,
-                          feedback: this.state.feedback - 1,
-                        });
-                      } else {
-                        this.setState({
-                          activeFour: true,
-                          feedback: this.state.feedback + 1,
-                        });
-                      }
-                    }}
-                  >
-                    <img src={money} alt="money emoji" />
-                  </div>
-                </div>
-              </div>
+            <Feedback />
+          </div>
+          <div className="image-container">
+            <div className="full-width">
+              <img src={article} alt="article feature" />
             </div>
           </div>
         </div>

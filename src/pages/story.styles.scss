@@ -60,52 +60,20 @@
   }
 }
 
-.story-feedback {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+.image-container {
+  grid-column: 1 / -1;
 }
 
-.feedback-column {
-  grid-column: 3 / auto;
-  display: flex;
-  font-size: 1.9rem;
-  label {
-    margin-right: 4px;
-    @media (max-width: 760px) {
-      margin-left: auto;
-      margin-top: 20px;
-    }
-  }
-}
-
-.emoticons {
-  display: flex;
-  align-items: center;
-  @media (max-width: 760px) {
-    margin-left: auto;
-    margin-top: 20px;
-  }
-}
-
-.emo-img {
-  margin-right: 8px;
+.full-width {
   img {
-    height: 30px;
-    width: 30px;
-    filter: grayscale(1);
-    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 0.2s ease 0s;
     cursor: pointer;
     &:hover {
-      filter: none;
+      transform: scaleY(1.1);
     }
-  }
-}
-
-.is-active {
-  img {
-    filter: none;
-    height: 30px;
-    width: 30px;
   }
 }

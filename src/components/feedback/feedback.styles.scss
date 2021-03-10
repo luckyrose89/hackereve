@@ -1,0 +1,47 @@
+.story-feedback {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.feedback-column {
+  grid-column: 3 / auto;
+  display: flex;
+  font-size: 1.9rem;
+  label {
+    margin-right: 4px;
+    @media (max-width: 760px) {
+      margin-left: auto;
+      margin-top: 20px;
+    }
+  }
+}
+
+.emoticons {
+  display: flex;
+  align-items: center;
+  @media (max-width: 760px) {
+    margin-left: auto;
+    margin-top: 20px;
+  }
+}
+
+.emo-img {
+  margin-right: 8px;
+  img {
+    height: 30px;
+    width: 30px;
+    filter: grayscale(1);
+    vertical-align: middle;
+    cursor: pointer;
+    &:hover {
+      filter: none;
+    }
+  }
+}
+
+.is-active {
+  img {
+    filter: none;
+  }
+}
