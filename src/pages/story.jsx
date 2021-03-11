@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import ReactTooltip from "react-tooltip";
 
 import "./story.styles.scss";
@@ -14,6 +14,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Feedback from "../components/feedback/feedback";
 import article from "../assets/images/article-preview.jpeg";
+import Profile from "../components/profile/profile";
 
 const Story = () => {
   const theme = useContext(ThemeContext)[0];
@@ -33,13 +34,21 @@ const Story = () => {
         </h1>
         <div className="story-info">
           <div>
-            <a href="/">March 10th 2021</a>
-            <span>
-              <FontAwesomeIcon icon={faStar} />
+            <a href="/" style={{ color: `${currentTheme.textColor}` }}>
+              March 10th 2021
+            </a>
+            <span style={{ backgroundColor: `${currentTheme.tabletColor}` }}>
+              <FontAwesomeIcon
+                icon={faStar}
+                style={{ color: `${currentTheme.textColor}` }}
+              />
               323 reads
             </span>
             <button data-tip="For more stories keep reading Hackereve.com">
-              <FontAwesomeIcon icon={faBookmark} />
+              <FontAwesomeIcon
+                icon={faBookmark}
+                style={{ color: `${currentTheme.textColor}` }}
+              />
             </button>
             <ReactTooltip
               className="tooltip"
@@ -54,6 +63,7 @@ const Story = () => {
             <img src={article} alt="article feature" />
           </div>
         </div>
+        <Profile />
       </div>
     </main>
   );
