@@ -15,6 +15,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Feedback from "../components/feedback/feedback";
 import article from "../assets/images/article-preview.jpeg";
 import Profile from "../components/profile/profile";
+import Article from "../components/article/article";
 
 const Story = () => {
   const theme = useContext(ThemeContext)[0];
@@ -64,6 +65,7 @@ const Story = () => {
           </div>
         </div>
         <Profile />
+        <Article />
       </div>
     </main>
   );

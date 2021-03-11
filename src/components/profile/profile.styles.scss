@@ -11,12 +11,13 @@
 }
 
 .profile-info {
-  margin-top: -15px;
+  margin-top: -12px;
   h3 {
     display: flex;
     flex-flow: column;
     position: relative;
     cursor: pointer;
+    font-size: 1.1rem;
     &::after {
       content: "";
       position: absolute;
@@ -50,7 +51,7 @@
   @media (min-width: 800px) {
     margin-left: 0;
     letter-spacing: -1px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
