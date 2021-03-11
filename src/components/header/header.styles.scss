@@ -65,11 +65,15 @@ header {
     width: 200px;
     border: none;
     background-color: #ff8ba7;
+    outline-color: #ff8ba7;
     color: #000;
     border-radius: 4px;
     padding: 10px 20px 10px 10px;
     font-size: 1.4rem;
     font-weight: bold;
+    &::placeholder {
+      color: #000;
+    }
   }
   @media (max-width: 500px) {
     input {
