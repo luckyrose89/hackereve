@@ -12,7 +12,6 @@ class Feedback extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      feedback: 4,
       activeOne: false,
       activeTwo: false,
       activeThree: false,
@@ -20,7 +19,7 @@ class Feedback extends React.Component {
     };
   }
   render() {
-    let { feedback } = this.state;
+    let feedback = this.props.feedback;
     return (
       <div className="story-feedback">
         <div className="feedback-column">
@@ -32,12 +31,12 @@ class Feedback extends React.Component {
                 if (this.state.activeOne) {
                   this.setState({
                     activeOne: false,
-                    feedback: this.state.feedback - 1,
+                    feedback: this.props.setFeedback(this.props.feedback - 1),
                   });
                 } else {
                   this.setState({
                     activeOne: true,
-                    feedback: this.state.feedback + 1,
+                    feedback: this.props.setFeedback(this.props.feedback + 1),
                   });
                 }
               }}
@@ -50,12 +49,12 @@ class Feedback extends React.Component {
                 if (this.state.activeTwo) {
                   this.setState({
                     activeTwo: false,
-                    feedback: this.state.feedback - 1,
+                    feedback: this.props.setFeedback(this.props.feedback - 1),
                   });
                 } else {
                   this.setState({
                     activeTwo: true,
-                    feedback: this.state.feedback + 1,
+                    feedback: this.props.setFeedback(this.props.feedback + 1),
                   });
                 }
               }}
@@ -68,12 +67,12 @@ class Feedback extends React.Component {
                 if (this.state.activeThree) {
                   this.setState({
                     activeThree: false,
-                    feedback: this.state.feedback - 1,
+                    feedback: this.props.setFeedback(this.props.feedback - 1),
                   });
                 } else {
                   this.setState({
                     activeThree: true,
-                    feedback: this.state.feedback + 1,
+                    feedback: this.props.setFeedback(this.props.feedback + 1),
                   });
                 }
               }}
@@ -86,12 +85,12 @@ class Feedback extends React.Component {
                 if (this.state.activeFour) {
                   this.setState({
                     activeFour: false,
-                    feedback: this.state.feedback - 1,
+                    feedback: this.props.setFeedback(this.props.feedback - 1),
                   });
                 } else {
                   this.setState({
                     activeFour: true,
-                    feedback: this.state.feedback + 1,
+                    feedback: this.props.setFeedback(this.props.feedback + 1),
                   });
                 }
               }}

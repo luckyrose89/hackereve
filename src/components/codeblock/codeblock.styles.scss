@@ -1,0 +1,22 @@
+.code-container {
+  grid-column: 1/-1;
+  min-width: 0px;
+  padding: 10px;
+  @media (max-width: 500px) {
+    padding: 0;
+    max-width: 400px;
+  }
+}
+
+.code-box {
+  margin: 0;
+  display: block;
+  background: #000;
+  padding: 1.9rem;
+  white-space: pre-wrap;
+  overflow-x: scroll !important;
+  color: #fff;
+  p {
+    margin: 8px 0;
+  }
+}

@@ -4,6 +4,7 @@
   justify-content: flex-start;
   margin-bottom: 20px;
   transition: all 0.3s ease-in-out;
+  font-family: "Roboto Mono", monospace;
   @media (min-width: 800px) {
     flex-flow: column;
     grid-column: 1/2;
