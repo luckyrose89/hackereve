@@ -1,0 +1,23 @@
+.cta-section {
+  grid-column: 2/-2;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cta-banner {
+  border: 5px solid #9656a1;
+  padding: 15px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(150, 86, 161, 0.5);
+    transform: scale(1.2);
+  }
+  @media (max-width: 500px) {
+    font-size: 1.2rem;
+  }
+}

@@ -20,6 +20,7 @@ import CodeBlock from "../components/codeblock/codeblock";
 import Footer from "../components/footer/footer";
 import Related from "../components/related/related";
 import Tags from "../components/tags/tags";
+import CallToAction from "../components/callToAction/callToAction";
 
 const Story = () => {
   const [feedback, setFeedback] = useState(4);
@@ -638,6 +639,7 @@ const Story = () => {
         <Footer />
         <Related />
         <Tags />
+        <CallToAction />
       </div>
     </main>
   );
