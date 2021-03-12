@@ -18,6 +18,7 @@ import article from "../assets/images/article-preview.jpeg";
 import Profile from "../components/profile/profile";
 import CodeBlock from "../components/codeblock/codeblock";
 import Footer from "../components/footer/footer";
+import Related from "../components/related/related";
 
 const Story = () => {
   const [feedback, setFeedback] = useState(4);
@@ -634,6 +635,7 @@ const Story = () => {
           </div>
         </div>
         <Footer />
+        <Related />
       </div>
     </main>
   );
