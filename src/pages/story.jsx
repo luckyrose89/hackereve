@@ -19,6 +19,7 @@ import Profile from "../components/profile/profile";
 import CodeBlock from "../components/codeblock/codeblock";
 import Footer from "../components/footer/footer";
 import Related from "../components/related/related";
+import Tags from "../components/tags/tags";
 
 const Story = () => {
   const [feedback, setFeedback] = useState(4);
@@ -636,6 +637,7 @@ const Story = () => {
         </div>
         <Footer />
         <Related />
+        <Tags />
       </div>
     </main>
   );
