@@ -7,7 +7,7 @@ const AppTheme = {
   dark: {
     textColor: "#fff",
     backgroundColor: "#212428",
-    tabletColor: "#212428",
+    tabletColor: "#444141",
   },
 };
 

@@ -63,7 +63,6 @@ const Header = () => {
           <li>Top Stories</li>
           <li>Write</li>
           <li>Listen</li>
-          <li></li>
           <li>Advertise</li>
           <li>About</li>
           <li>Tech Companies</li>
