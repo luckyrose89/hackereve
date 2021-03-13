@@ -26,33 +26,110 @@ const FooterTwo = () => {
     >
       <div className="footer-links">
         <ul>
-          <li className="highlights">
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
             <strong>Help</strong>
           </li>
-          <li className="highlights">
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
             <strong>About</strong>
           </li>
-          <li className="highlights">
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
             <strong>Start Writing</strong>
           </li>
-          <li className="highlights">
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
             <strong>Sponsor:</strong>
           </li>
-          <li className="highlights">Brand-As-Author</li>
-          <li className="highlights">Sitewide Billboard</li>
-          <li className="highlights">Ad by tag</li>
-          <li className="highlights">Newsletter</li>
-          <li className="highlights">Noonies</li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Brand-As-Author
+          </li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Sitewide Billboard
+          </li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Ad by tag
+          </li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Newsletter
+          </li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Noonies
+          </li>
         </ul>
         <ul>
-          <li className="highlights">Contact Us</li>
-          <li className="highlights">Privacy</li>
-          <li className="highlights">Terms</li>
-          <li className="highlights">Cookies</li>
-          <li className="highlights">Stories published yesterday</li>
-          <li className="highlights">Leaderboard</li>
-          <li className="highlights">Contributor's club</li>
-          <li className="highlights">Chrome Extension</li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Contact Us
+          </li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Privacy
+          </li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Terms
+          </li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Cookies
+          </li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Stories published yesterday
+          </li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Leaderboard
+          </li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Contributor's club
+          </li>
+          <li
+            className="highlights"
+            style={{ color: `${currentTheme.textColor}` }}
+          >
+            Chrome Extension
+          </li>
         </ul>
       </div>
       <div className="footer-social">
