@@ -83,7 +83,7 @@ const Story = () => {
             <a
               href="/"
               style={{ color: `${currentTheme.textColor}` }}
-              className="highlight-links"
+              className="highlight-link"
             >
               react-loading
             </a>{" "}
@@ -94,7 +94,7 @@ const Story = () => {
             <a
               href="/"
               style={{ color: `${currentTheme.textColor}` }}
-              className="highlight-links"
+              className="highlight-link"
             >
               react-lottie
             </a>{" "}
@@ -136,7 +136,7 @@ const Story = () => {
             <strong>NOTE:</strong> Here, I'm using{" "}
             <a
               href="/"
-              className="highlight-links"
+              className="highlight-link"
               style={{ color: `${currentTheme.textColor}` }}
             >
               jsonplaceholder API
@@ -248,7 +248,7 @@ const Story = () => {
             find more functionalities on{" "}
             <a
               href="/"
-              className="highlight-links"
+              className="highlight-link"
               style={{ color: `${currentTheme.textColor}` }}
             >
               here
@@ -275,7 +275,7 @@ const Story = () => {
             from{" "}
             <a
               href="/"
-              className="highlight-links"
+              className="highlight-link"
               style={{ color: `${currentTheme.textColor}` }}
             >
               https://lottiefiles.com/
@@ -286,7 +286,7 @@ const Story = () => {
             Earth animation :{" "}
             <a
               href="https://lottiefiles.com/1055-world-locations"
-              className="highlight-links"
+              className="highlight-link"
               style={{ color: `${currentTheme.textColor}` }}
             >
               link
@@ -296,7 +296,7 @@ const Story = () => {
             Success animation:
             <a
               href="https://lottiefiles.com/1127-success"
-              className="highlight-links"
+              className="highlight-link"
               style={{ color: `${currentTheme.textColor}` }}
             >
               link
@@ -318,7 +318,7 @@ const Story = () => {
           As mentioned{" "}
           <a
             href="/"
-            className="highlight-links"
+            className="highlight-link"
             style={{ color: `${currentTheme.textColor}` }}
           >
             here
@@ -515,7 +515,7 @@ const Story = () => {
             Now as per the Creative Commons License of{" "}
             <a
               href="https://lottiefiles.com/page/license"
-              className="highlight-links"
+              className="highlight-link"
               style={{ color: `${currentTheme.textColor}` }}
             >
               lottiefiles.com
@@ -602,7 +602,7 @@ const Story = () => {
             You can find Full-Code repository from{" "}
             <a
               href="/"
-              className="highlight-links"
+              className="highlight-link"
               style={{ color: `${currentTheme.textColor}` }}
             >
               here.
@@ -615,7 +615,7 @@ const Story = () => {
           <p>
             <a
               href="/"
-              className="highlight-links"
+              className="highlight-link"
               style={{ color: `${currentTheme.textColor}` }}
             >
               CodeBucks
@@ -626,7 +626,7 @@ const Story = () => {
               Previously published{" "}
               <a
                 href="/"
-                className="highlight-links"
+                className="highlight-link"
                 style={{ color: `${currentTheme.textColor}` }}
               >
                 here.
