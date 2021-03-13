@@ -114,7 +114,10 @@ const Header = (props) => {
             </h4>
           </div>
           <div className="author-value">
-            Author: <a href="/">@codebucks</a>
+            Author:{" "}
+            <a href="/" className="highlight-link">
+              @codebucks
+            </a>
           </div>
           <div className="follow-links">
             <a href="/">
