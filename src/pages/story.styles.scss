@@ -121,7 +121,7 @@
   }
 }
 
-.highlight-link::after {
+.highlight-link {
   &::after {
     content: "";
     position: absolute;
