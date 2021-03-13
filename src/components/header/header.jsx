@@ -75,6 +75,7 @@ const Header = (props) => {
           <li>Slogging</li>
         </ul>
       </div>
+      <div className="articleTitle-nav"></div>
     </header>
   );
 };

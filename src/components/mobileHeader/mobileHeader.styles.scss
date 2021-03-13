@@ -37,6 +37,11 @@
       font-size: 1.2rem;
       border-bottom: 1px solid #ff8ba7;
       padding: 24px 12px;
+      display: flex;
+      justify-content: space-between;
+      a {
+        color: #000;
+      }
     }
   }
 }

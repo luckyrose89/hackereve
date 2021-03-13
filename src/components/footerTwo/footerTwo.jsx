@@ -26,33 +26,33 @@ const FooterTwo = () => {
     >
       <div className="footer-links">
         <ul>
-          <li className="highlight-links">
+          <li className="highlights">
             <strong>Help</strong>
           </li>
-          <li className="highlight-links">
+          <li className="highlights">
             <strong>About</strong>
           </li>
-          <li className="highlight-links">
+          <li className="highlights">
             <strong>Start Writing</strong>
           </li>
-          <li className="highlight-links">
+          <li className="highlights">
             <strong>Sponsor:</strong>
           </li>
-          <li className="highlight-links">Brand-As-Author</li>
-          <li className="highlight-links">Sitewide Billboard</li>
-          <li className="highlight-links">Ad by tag</li>
-          <li className="highlight-links">Newsletter</li>
-          <li className="highlight-links">Noonies</li>
+          <li className="highlights">Brand-As-Author</li>
+          <li className="highlights">Sitewide Billboard</li>
+          <li className="highlights">Ad by tag</li>
+          <li className="highlights">Newsletter</li>
+          <li className="highlights">Noonies</li>
         </ul>
         <ul>
-          <li className="highlight-links">Contact Us</li>
-          <li className="highlight-links">Privacy</li>
-          <li className="highlight-links">Terms</li>
-          <li className="highlight-links">Cookies</li>
-          <li className="highlight-links">Stories published yesterday</li>
-          <li className="highlight-links">Leaderboard</li>
-          <li className="highlight-links">Contributor's club</li>
-          <li className="highlight-links">Chrome Extension</li>
+          <li className="highlights">Contact Us</li>
+          <li className="highlights">Privacy</li>
+          <li className="highlights">Terms</li>
+          <li className="highlights">Cookies</li>
+          <li className="highlights">Stories published yesterday</li>
+          <li className="highlights">Leaderboard</li>
+          <li className="highlights">Contributor's club</li>
+          <li className="highlights">Chrome Extension</li>
         </ul>
       </div>
       <div className="footer-social">

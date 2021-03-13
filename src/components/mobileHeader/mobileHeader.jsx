@@ -4,6 +4,7 @@ import "./mobileHeader.styles.scss";
 
 // get fontawesome imports
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import profile from "../../assets/images/profile.jpeg";
@@ -32,16 +33,41 @@ const MobileHeader = (props) => {
       </header>
       <nav className="mobile-nav">
         <ul>
-          <li>Read</li>
-          <li>Top Stories</li>
-          <li>Listen</li>
-          <li>Write</li>
-          <li>Learn</li>
-          <li>Advertise</li>
-          <li>About</li>
-          <li>Tech Companies</li>
-          <li>Careers</li>
-          <li>slogging</li>
+          <li>
+            <a href="/">Read</a>
+            <FontAwesomeIcon icon={faAngleRight} />
+          </li>
+          <li>
+            <a href="/">Top Stories</a>
+          </li>
+          <li>
+            <a href="/">Listen</a>
+          </li>
+          <li>
+            <a href="/">Write</a>
+          </li>
+          <li>
+            <a href="/">Learn</a>
+            <FontAwesomeIcon icon={faAngleRight} />
+          </li>
+          <li>
+            <a href="/">Advertise</a>
+            <FontAwesomeIcon icon={faAngleRight} />
+          </li>
+          <li>
+            <a href="/">About</a>
+            <FontAwesomeIcon icon={faAngleRight} />
+          </li>
+          <li>
+            <a href="/">Tech Companies</a>
+            <FontAwesomeIcon icon={faAngleRight} />
+          </li>
+          <li>
+            <a href="/">Careers</a>
+          </li>
+          <li>
+            <a href="/">slogging</a>
+          </li>
         </ul>
       </nav>
     </div>
