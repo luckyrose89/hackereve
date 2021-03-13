@@ -121,21 +121,20 @@
   }
 }
 
-.highlight-links {
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 8px;
-    background-color: #9656a1;
-    opacity: 60%;
-  }
-  &:hover {
-    &::after {
-      height: 25px;
-    }
+.highlight-links::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: #9656a1;
+  opacity: 60%;
+}
+
+.highlight-links:hover {
+  .highlight-links::after {
+    height: 25px;
   }
 }
 
