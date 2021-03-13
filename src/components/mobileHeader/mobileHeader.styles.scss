@@ -1,0 +1,42 @@
+.mobile-header {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #9656a1;
+  z-index: 10;
+  overflow-y: scroll;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 12;
+    background: #875191;
+  }
+}
+
+.toggle-mobileheader {
+  button {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
+
+.mobile-nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+    li {
+      font-size: 1.2rem;
+      border-bottom: 1px solid #ff8ba7;
+      padding: 24px 12px;
+    }
+  }
+}

@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./header.styles.scss";
 
-const Header = () => {
+const Header = (props) => {
   const [themeMode, setThemeMode] = useContext(ThemeContext);
   return (
     <header>
@@ -52,7 +52,12 @@ const Header = () => {
             <FontAwesomeIcon icon={faMoon} />
           )}
         </button>
-        <button className="mobile-menu">
+        <button
+          className="mobile-menu"
+          onClick={() => {
+            props.setVisible(true);
+          }}
+        >
           <FontAwesomeIcon icon={faBars} />
         </button>
       </div>
