@@ -116,6 +116,7 @@ const Story = () => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
+              title="Loading screen tutorial"
             ></iframe>
           </div>
           <h2 className="small-headings">Let's Start Building...</h2>
