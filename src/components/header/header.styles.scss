@@ -159,3 +159,45 @@ a {
     display: none;
   }
 }
+
+.articleTitle-nav {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff8ba7;
+}
+
+.brand-headline {
+  display: flex;
+  align-items: center;
+  h4 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+    @media (max-width: 600px) {
+      font-size: 0.9em;
+    }
+  }
+  img {
+    margin-right: 5px;
+  }
+}
+
+.author-value {
+  margin-bottom: 10px;
+  a {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+}
+
+.follow-links {
+  a {
+    color: #9656a1;
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+}

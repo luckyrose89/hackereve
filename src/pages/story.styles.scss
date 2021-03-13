@@ -70,7 +70,7 @@
     height: auto;
     object-fit: cover;
     overflow: hidden;
-    transition: transform 0.2s ease 0s;
+    transition: transform 0.3s ease;
     cursor: pointer;
     &:hover {
       transform: scaleY(1.1);
